@@ -14,6 +14,7 @@ THANK YOU FOR A GREAT SEMESTER! :)
 This project attempts to measure stress levels (or the opposite, calmness) and try to see what triggers a person to be stressed or calm
 The dataset that I am using is as follows – I looked into the UC Irvine Machine Learning Repository to get a dataset for my project: WESAD (Wearable Stress and Affect Detection) – which contains data from 15 subjects during a stress-affect lab study while wearing physiological and motion sensors. Philip Schmidt, Attila Reiss, Robert Duerichen, Claus Marberger, and Kristof Van Laerhoven, "Introducing WESAD, a multimodal dataset for Wearable Stress and Affect Detection," ICMI 2018, Boulder, USA, 2018. https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
 
+![HRV-Chart-300x225](https://github.com/Global-Online-Academy/final-project-arjunryan13/assets/156986193/bca0c5ca-4f3a-49c6-a336-371e630d8b4b)
 
 I am still thinking about what graphs I should create
 
