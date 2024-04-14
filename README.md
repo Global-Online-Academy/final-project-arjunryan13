@@ -9,6 +9,17 @@ If you are pulling data from an API, please put the data into a file in this rep
 THANK YOU FOR A GREAT SEMESTER! :)
 
 ---
+# Arjun's Final Project
+
+This project attempts to measure stress levels (or the opposite, calmness) and try to see what triggers a person to be stressed or calm
+The dataset that I am using is as follows – I looked into the UC Irvine Machine Learning Repository to get a dataset for my project: WESAD (Wearable Stress and Affect Detection) – which contains data from 15 subjects during a stress-affect lab study while wearing physiological and motion sensors. Philip Schmidt, Attila Reiss, Robert Duerichen, Claus Marberger, and Kristof Van Laerhoven, "Introducing WESAD, a multimodal dataset for Wearable Stress and Affect Detection," ICMI 2018, Boulder, USA, 2018. https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
+
+
+I am still thinking about what graphs I should create
+
+I want to visualize all these different pieces of data from 15 different people or “Subjects.”I plan to use only temperature, electrodermal activity, heart rate, and qualitative metrics of how the “Subjects feel. I am mostly thinking of creating a comprehensive view based on a Subject number so that the person running the program can choose the “Subject number.” Another view would be, for example, to see heart rates from all 15 subjects, but I wonder if that's useful.
+
+
 
 ## SPECIAL INSTRUCTIONS FOR API USERS
 
