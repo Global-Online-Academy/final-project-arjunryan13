@@ -12,7 +12,7 @@ import random
 s3 = []
 d = []
 
-# FOR Heart Rates
+# Subject S3 Heart Rates
 f = open("S3-hr.txt", "r")
 for line in f:
     line = line.strip()
@@ -23,10 +23,8 @@ for i in range(len(s3)):
 
 labels = d
 data = {'Heart Rate': s3, 'Time': labels}
-
 source = ColumnDataSource(data=data)
-
-p = figure(title="Chart of heart rate", x_axis_label='x', y_axis_label='y')
+p = figure(title="Chart of heart rate for Subject S3", x_axis_label='x', y_axis_label='y')
 p.line(d, s3, line_width=2)
 p.yaxis.axis_label = 'Heart Rate'
 
