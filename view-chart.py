@@ -15,7 +15,7 @@ subjects = ['S2','S3','S4','S5','S6','S7','S8','S9','S10','S11','S13','S14','S15
 # This function collects data for one subject
 def prepareDataForSubject(subjectName):
     
-    # I'm Initialize a nested dictionary
+    # I'm Initializing a nested dictionary
     plots[subjectName] = {}
     # Add information about the subject from the readme file
     plots[subjectName]['info'] = open('WESAD' + os.sep + subjectName + os.sep + subjectName + '_readme.txt', 'r').read()
