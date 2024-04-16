@@ -16,10 +16,15 @@ The dataset that I am using is as follows – I looked into the UC Irvine Machin
 
 ![HRV-Chart-300x225](https://github.com/Global-Online-Academy/final-project-arjunryan13/assets/156986193/bca0c5ca-4f3a-49c6-a336-371e630d8b4b)
 
-I am still thinking about what graphs I should create
+I created three charts per person (subject) for each of the subjects in the study.
 
-I want to visualize all these different pieces of data from 15 different people or “Subjects.”I plan to use only temperature, electrodermal activity, heart rate, and qualitative metrics of how the “Subjects feel. I am mostly thinking of creating a comprehensive view based on a Subject number so that the person running the program can choose the “Subject number.” Another view would be, for example, to see heart rates from all 15 subjects, but I wonder if that's useful.
+For each person I decided to see:
+1. Information about the person - like age weight etc.
+2. Heart Rate - the normal range is 60-120 and I left this band white and highlighted peaks and valleys in blue.
+3. Temperature in C -  Normal temperature can vary based on age and fitness level. I'm just showing a range between 32.2C and 37.8C as normal. A fever is usually when your body temperature is 37.8°C or higher.
+4. Photo-plethysmography - This is a measure the volumetric variations of blood circulation.Detailed analysis of this measure can also help with the timely identification and diagnose of various cardiovascular diseases including atherosclerosis and arterial stiffness. Normal range could vary but I used -600 to 600.
 
+I created a comprehensive view for all subjects. From the chart, we can see that when heart rate goes up, sometimes temperature also goes up indicating perhaps exercise but at other times temperature is normal or goes down possibly indicating stress.
 
 
 ## SPECIAL INSTRUCTIONS FOR API USERS
